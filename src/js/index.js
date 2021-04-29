@@ -73,7 +73,7 @@ const TryBeforeYouBuy = (function () {
     jrTitle.innerHTML = "Big Sur Square Arm Leather Sofa";
 
     let info = createDOMElement('div', [{ name: "id", val: "info-container" }], [jrTitle, jrPrice, jrDisclaimer]);
-    let roomWindoImg = createDOMElement('img', [{ name: "className", val: "w-100" }, { name: "src", val: "./../img/couch.png" }]);
+    let roomWindoImg = createDOMElement('img', [{ name: "className", val: "w-100" }, { name: "src", val: "https://raw.githubusercontent.com/jrdesignhero/we-interview-room-ux/main/src/img/couch.png" }]);
     let roomWindow = createDOMElement('div', [{ name: "id", val: "room-window" }, { name: "className", val: "room_1" }], [roomWindoImg]);
     let col_1 = createDOMElement('div', [{ name: "className", val: "jr-col_1" }], [roomWindow, info]);
     let col_2 = createDOMElement('div', [{ name: "className", val: "jr-col_2" }], [header, tryBtns, buyNow, modalCloseBtn]);

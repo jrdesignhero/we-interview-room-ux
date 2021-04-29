@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../img/room-3.png":[["room-3.67ff2bfa.png","img/room-3.png"],"img/room-3.png"],"./../img/room-5.png":[["room-5.a8721883.png","img/room-5.png"],"img/room-5.png"],"./../img/room-4.png":[["room-4.0aa6d8ef.png","img/room-4.png"],"img/room-4.png"],"./../img/room-2.png":[["room-2.ab8281f9.png","img/room-2.png"],"img/room-2.png"],"./../img/room-1.png":[["room-1.62758297.png","img/room-1.png"],"img/room-1.png"],"_css_loader":"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"js/index.js":[function(require,module,exports) {
+},{"_css_loader":"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"js/index.js":[function(require,module,exports) {
 "use strict";
 
 require("./../css/styles.scss");
@@ -338,7 +338,7 @@ var TryBeforeYouBuy = function () {
     val: "w-100"
   }, {
     name: "src",
-    val: "./../img/couch.png"
+    val: "https://raw.githubusercontent.com/jrdesignhero/we-interview-room-ux/main/src/img/couch.png"
   }]);
   var roomWindow = createDOMElement('div', [{
     name: "id",
