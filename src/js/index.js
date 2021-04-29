@@ -80,8 +80,6 @@ const TryBeforeYouBuy = (function () {
     let row = createDOMElement('div', [{ name: "className", val: "jr-row" }], [col_1, col_2]);
     let modal = createDOMElement('div', [{ name: "id", val: "jr-modal" }], [row]);
 
-    // let tag = document.querySelector('#tag');
-
     let showOverlay = function () {
         overlay.style.display = "block";
         modal.style.display = "block";
@@ -92,7 +90,6 @@ const TryBeforeYouBuy = (function () {
     }
     let switchBg = function (newBg) {
         roomWindow.className = newBg;
-        tag.innerHTML = newBg;
     }
     let bindRoomBtnUI = function () {
         document.querySelector('body').appendChild(overlay);
@@ -126,7 +123,3 @@ const TryBeforeYouBuy = (function () {
 //kickoff
 TryBeforeYouBuy.init();
 PageExperience.init(TryBeforeYouBuy.showOverlay);
-
-
-
-

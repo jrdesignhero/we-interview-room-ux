@@ -362,7 +362,7 @@ var TryBeforeYouBuy = function () {
   var modal = createDOMElement('div', [{
     name: "id",
     val: "jr-modal"
-  }], [row]); // let tag = document.querySelector('#tag');
+  }], [row]);
 
   var showOverlay = function showOverlay() {
     overlay.style.display = "block";
@@ -376,7 +376,6 @@ var TryBeforeYouBuy = function () {
 
   var switchBg = function switchBg(newBg) {
     roomWindow.className = newBg;
-    tag.innerHTML = newBg;
   };
 
   var bindRoomBtnUI = function bindRoomBtnUI() {
