@@ -1,0 +1,150 @@
+* {
+  font-family: 'Montserrat'; }
+
+#jr-modal {
+  display: none;
+  background: #fff;
+  position: absolute;
+  overflow: hidden;
+  width: 700px;
+  padding: 20px;
+  z-index: 100;
+  border-radius: 4px;
+  top: 30px;
+  left: 50%;
+  margin-left: -380px; }
+
+.jr-row {
+  position: relative;
+  overflow: hidden; }
+
+.jr-col_1,
+.jr-col_2 {
+  float: left;
+  width: 508px; }
+
+.jr-col_2 {
+  width: 187px;
+  margin-left: 5px; }
+
+.w100 {
+  width: 100%;
+  display: block; }
+
+#room-window {
+  height: 296px;
+  margin-bottom: 20px;
+  position: relative; }
+
+.jr-title {
+  font-weight: 400;
+  font-size: 22px;
+  margin-bottom: 8px;
+  margin-top: 0px;
+  line-height: 22px; }
+
+.jr-price {
+  font-size: 17px;
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+.jr-disclaimer {
+  margin-top: 2px;
+  font-size: 12px;
+  margin-bottom: 0px; }
+
+ul.try-btn {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  position: relative;
+  overflow: hidden; }
+
+.try-btn li {
+  display: block;
+  width: 73px;
+  background: #dfe6e9;
+  float: left;
+  height: 64px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+  line-height: 64px; }
+
+h2.try-title {
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 26px;
+  line-height: 16px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  cursor: pointer; }
+
+a.add2cart {
+  display: block;
+  text-align: center;
+  background: black;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-left: 5px;
+  margin-right: 5px; }
+
+a#closemodal {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  color: red; }
+
+#overlay-bg {
+  display: none;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99; }
+
+.room_1 {
+  background: url("/room-3.67ff2bfa.png") top center no-repeat; }
+
+.room_2 {
+  background: url("/room-5.a8721883.png") top center no-repeat; }
+
+.room_3 {
+  background: url("/room-4.0aa6d8ef.png") top center no-repeat; }
+
+.room_4 {
+  background: url("/room-2.ab8281f9.png") top center no-repeat; }
+
+.room_5 {
+  background: url("/room-1.62758297.png") top center no-repeat; }
+
+.try-before {
+  margin-top: 0px;
+  text-align: center;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  line-height: 22px; }
+
+#tag {
+  width: 73px;
+  background: black;
+  color: #fff;
+  padding: 5px 10px;
+  position: absolute;
+  top: 0px;
+  text-transform: uppercase;
+  left: 0px; }
+
+
+/*# sourceMappingURL=/js.00a46daa.css.map */
